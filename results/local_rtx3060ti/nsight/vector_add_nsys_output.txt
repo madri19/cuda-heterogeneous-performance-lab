@@ -1,0 +1,88 @@
+CPU vs GPU Vector Add
+Elements: 16777216
+Threads per block: 256
+GPU warmup iterations: 5
+GPU timed iterations: 20
+CPU timed iterations: 20
+
+Blocks: 65536
+
+CPU average elapsed: 9.50465 ms
+CPU estimated bandwidth: 19.7272 GiB/sec
+
+GPU kernel average elapsed: 0.48395 ms
+GPU estimated kernel bandwidth: 387.436 GiB/sec
+
+GPU kernel / CPU speedup: 19.6397x
+Validation errors: 0
+Collecting data...
+Generating '/tmp/nsys-report-8ff2.qdstrm'
+Press Ctrl-C to stop symbol files downloading
+[1/8] [0%                          ] vector_add_nsys.nsys-rep[1/8] [0%                          ] vector_add_nsys.nsys-rep[1/8] [======33%                   ] vector_add_nsys.nsys-rep[1/8] [======35%                   ] vector_add_nsys.nsys-rep[1/8] [=======36%                  ] vector_add_nsys.nsys-rep[1/8] [=======37%                  ] vector_add_nsys.nsys-rep[1/8] [=======38%                  ] vector_add_nsys.nsys-rep[1/8] [===========52%              ] vector_add_nsys.nsys-rep[1/8] [===========53%              ] vector_add_nsys.nsys-rep[1/8] [============55%             ] vector_add_nsys.nsys-rep[1/8] [================71%         ] vector_add_nsys.nsys-rep[1/8] [====================85%     ] vector_add_nsys.nsys-rep[1/8] [========================100%] vector_add_nsys.nsys-rep[1/8] [========================100%] vector_add_nsys.nsys-rep
+[2/8] [0%                          ] vector_add_nsys.sqlite[2/8] [1%                          ] vector_add_nsys.sqlite[2/8] [2%                          ] vector_add_nsys.sqlite[2/8] [3%                          ] vector_add_nsys.sqlite[2/8] [4%                          ] vector_add_nsys.sqlite[2/8] [5%                          ] vector_add_nsys.sqlite[2/8] [6%                          ] vector_add_nsys.sqlite[2/8] [7%                          ] vector_add_nsys.sqlite[2/8] [8%                          ] vector_add_nsys.sqlite[2/8] [9%                          ] vector_add_nsys.sqlite[2/8] [10%                         ] vector_add_nsys.sqlite[2/8] [11%                         ] vector_add_nsys.sqlite[2/8] [12%                         ] vector_add_nsys.sqlite[2/8] [13%                         ] vector_add_nsys.sqlite[2/8] [14%                         ] vector_add_nsys.sqlite[2/8] [=15%                        ] vector_add_nsys.sqlite[2/8] [=16%                        ] vector_add_nsys.sqlite[2/8] [=17%                        ] vector_add_nsys.sqlite[2/8] [==18%                       ] vector_add_nsys.sqlite[2/8] [==19%                       ] vector_add_nsys.sqlite[2/8] [==20%                       ] vector_add_nsys.sqlite[2/8] [==21%                       ] vector_add_nsys.sqlite[2/8] [===22%                      ] vector_add_nsys.sqlite[2/8] [===23%                      ] vector_add_nsys.sqlite[2/8] [===24%                      ] vector_add_nsys.sqlite[2/8] [====25%                     ] vector_add_nsys.sqlite[2/8] [====26%                     ] vector_add_nsys.sqlite[2/8] [====27%                     ] vector_add_nsys.sqlite[2/8] [====28%                     ] vector_add_nsys.sqlite[2/8] [=====29%                    ] vector_add_nsys.sqlite[2/8] [=====30%                    ] vector_add_nsys.sqlite[2/8] [=====31%                    ] vector_add_nsys.sqlite[2/8] [=====32%                    ] vector_add_nsys.sqlite[2/8] [======33%                   ] vector_add_nsys.sqlite[2/8] [======34%                   ] vector_add_nsys.sqlite[2/8] [======35%                   ] vector_add_nsys.sqlite[2/8] [=======36%                  ] vector_add_nsys.sqlite[2/8] [=======37%                  ] vector_add_nsys.sqlite[2/8] [=======38%                  ] vector_add_nsys.sqlite[2/8] [=======39%                  ] vector_add_nsys.sqlite[2/8] [========40%                 ] vector_add_nsys.sqlite[2/8] [========41%                 ] vector_add_nsys.sqlite[2/8] [========42%                 ] vector_add_nsys.sqlite[2/8] [=========43%                ] vector_add_nsys.sqlite[2/8] [=========44%                ] vector_add_nsys.sqlite[2/8] [=========45%                ] vector_add_nsys.sqlite[2/8] [=========46%                ] vector_add_nsys.sqlite[2/8] [==========47%               ] vector_add_nsys.sqlite[2/8] [==========48%               ] vector_add_nsys.sqlite[2/8] [==========49%               ] vector_add_nsys.sqlite[2/8] [===========50%              ] vector_add_nsys.sqlite[2/8] [===========51%              ] vector_add_nsys.sqlite[2/8] [===========52%              ] vector_add_nsys.sqlite[2/8] [===========53%              ] vector_add_nsys.sqlite[2/8] [============54%             ] vector_add_nsys.sqlite[2/8] [============55%             ] vector_add_nsys.sqlite[2/8] [============56%             ] vector_add_nsys.sqlite[2/8] [============57%             ] vector_add_nsys.sqlite[2/8] [=============58%            ] vector_add_nsys.sqlite[2/8] [=============59%            ] vector_add_nsys.sqlite[2/8] [=============60%            ] vector_add_nsys.sqlite[2/8] [==============61%           ] vector_add_nsys.sqlite[2/8] [==============62%           ] vector_add_nsys.sqlite[2/8] [==============63%           ] vector_add_nsys.sqlite[2/8] [==============64%           ] vector_add_nsys.sqlite[2/8] [===============65%          ] vector_add_nsys.sqlite[2/8] [===============66%          ] vector_add_nsys.sqlite[2/8] [===============67%          ] vector_add_nsys.sqlite[2/8] [================68%         ] vector_add_nsys.sqlite[2/8] [================69%         ] vector_add_nsys.sqlite[2/8] [================70%         ] vector_add_nsys.sqlite[2/8] [================71%         ] vector_add_nsys.sqlite[2/8] [=================72%        ] vector_add_nsys.sqlite[2/8] [=================73%        ] vector_add_nsys.sqlite[2/8] [=================74%        ] vector_add_nsys.sqlite[2/8] [==================75%       ] vector_add_nsys.sqlite[2/8] [==================76%       ] vector_add_nsys.sqlite[2/8] [==================77%       ] vector_add_nsys.sqlite[2/8] [==================78%       ] vector_add_nsys.sqlite[2/8] [===================79%      ] vector_add_nsys.sqlite[2/8] [===================80%      ] vector_add_nsys.sqlite[2/8] [===================81%      ] vector_add_nsys.sqlite[2/8] [===================82%      ] vector_add_nsys.sqlite[2/8] [====================83%     ] vector_add_nsys.sqlite[2/8] [====================84%     ] vector_add_nsys.sqlite[2/8] [====================85%     ] vector_add_nsys.sqlite[2/8] [=====================86%    ] vector_add_nsys.sqlite[2/8] [=====================87%    ] vector_add_nsys.sqlite[2/8] [=====================88%    ] vector_add_nsys.sqlite[2/8] [=====================89%    ] vector_add_nsys.sqlite[2/8] [======================90%   ] vector_add_nsys.sqlite[2/8] [======================91%   ] vector_add_nsys.sqlite[2/8] [======================92%   ] vector_add_nsys.sqlite[2/8] [=======================93%  ] vector_add_nsys.sqlite[2/8] [=======================94%  ] vector_add_nsys.sqlite[2/8] [=======================95%  ] vector_add_nsys.sqlite[2/8] [=======================96%  ] vector_add_nsys.sqlite[2/8] [========================97% ] vector_add_nsys.sqlite[2/8] [========================98% ] vector_add_nsys.sqlite[2/8] [========================99% ] vector_add_nsys.sqlite[2/8] [========================100%] vector_add_nsys.sqlite[2/8] [========================100%] vector_add_nsys.sqlite
+SKIPPED: /home/embedded/projects/cuda-heterogeneous-performance-lab/results/local_rtx3060ti/nsight/vector_add_nsys.sqlite does not contain NV Tools Extension (NVTX) data.
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)    Med (ns)   Min (ns)  Max (ns)   StdDev (ns)       Name     
+ --------  ---------------  ---------  ----------  ----------  --------  ---------  -----------  --------------
+     56.7        200370151          7  28624307.3  13530948.0      1393  100132372   36309349.8  poll          
+     38.6        136456214        671    203362.5      5230.0      1012   14790301    1062036.7  ioctl         
+      3.6         12610973          6   2101828.8     72229.5      1192   12134005    4916346.4  fread         
+      0.4          1485519          4    371379.8    316314.5     72315     780575     298728.8  pthread_create
+      0.3           909795         27     33696.1      4308.0      1823     457854     100180.7  fopen         
+      0.2           608274          3    202758.0     61755.0     51156     495363     253458.8  sem_timedwait 
+      0.1           267470         10     26747.0     12538.0      1383     157264      46982.0  fclose        
+      0.1           238653         22     10847.9     10900.0      2916      19937       4087.5  mmap          
+      0.1           214068          4     53517.0     10669.5      7103     185626      88100.5  open          
+      0.1           180436          1    180436.0    180436.0    180436     180436          0.0  pthread_join  
+      0.0            61725          1     61725.0     61725.0     61725      61725          0.0  fgets         
+      0.0            50062          4     12515.5     12408.0      8976      16270       3057.7  write         
+      0.0            26119          4      6529.8      6818.0      3687       8796       2644.5  pipe2         
+      0.0            20129          4      5032.3      2089.5      1613      14337       6214.4  fwrite        
+      0.0            17803          1     17803.0     17803.0     17803      17803          0.0  fflush        
+      0.0             8317          5      1663.4      1663.0      1213       2205        360.0  read          
+      0.0             7575          4      1893.8      1232.5      1002       4108       1481.0  fcntl         
+      0.0             1583          1      1583.0      1583.0      1583       1583          0.0  close         
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)   Med (ns)   Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ----------  ---------  --------  ---------  -----------  ----------------------
+     80.9        179240019          3  59746673.0   550537.0    298045  178391437  102749457.2  cudaMalloc            
+     12.0         26659868          3   8886622.7  7723755.0   7052875   11883238    2616734.1  cudaMemcpy            
+      4.3          9520053          1   9520053.0  9520053.0   9520053    9520053          0.0  cudaEventSynchronize  
+      1.1          2385616          1   2385616.0  2385616.0   2385616    2385616          0.0  cudaDeviceSynchronize 
+      0.6          1253346          1   1253346.0  1253346.0   1253346    1253346          0.0  cuLibraryLoadData     
+      0.5          1168686          3    389562.0   217298.0    214705     736683     300618.4  cudaFree              
+      0.3           659920          2    329960.0   329960.0      1102     658818     465075.4  cudaEventCreate       
+      0.2           498860         25     19954.4     7113.0      5310     314115      61322.8  cudaLaunchKernel      
+      0.1           207891         25      8315.6      111.0        90     190726      38099.3  cuKernelGetName       
+      0.0            27601          2     13800.5    13800.5      5630      21971      11554.8  cudaEventRecord       
+      0.0            22032          2     11016.0    11016.0       592      21440      14741.8  cudaEventDestroy      
+      0.0             2224          1      2224.0     2224.0      2224       2224          0.0  cuModuleGetLoadingMode
+      0.0              400          1       400.0      400.0       400        400          0.0  cuLibraryGetKernel    
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)                              Name                             
+ --------  ---------------  ---------  --------  --------  --------  --------  -----------  -------------------------------------------------------------
+    100.0         12037545         25  481501.8  481653.0    478325    481909        699.4  vector_add_kernel(const float *, const float *, float *, int)
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)           Operation          
+ --------  ---------------  -----  ---------  ---------  --------  --------  -----------  ----------------------------
+     68.4         14944742      2  7472371.0  7472371.0   7309111   7635631     230884.5  [CUDA memcpy Host-to-Device]
+     31.6          6915808      1  6915808.0  6915808.0   6915808   6915808          0.0  [CUDA memcpy Device-to-Host]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+    134.218      2    67.109    67.109    67.109    67.109        0.000  [CUDA memcpy Host-to-Device]
+     67.109      1    67.109    67.109    67.109    67.109        0.000  [CUDA memcpy Device-to-Host]
+
+Generated:
+	/home/embedded/projects/cuda-heterogeneous-performance-lab/results/local_rtx3060ti/nsight/vector_add_nsys.nsys-rep
+	/home/embedded/projects/cuda-heterogeneous-performance-lab/results/local_rtx3060ti/nsight/vector_add_nsys.sqlite

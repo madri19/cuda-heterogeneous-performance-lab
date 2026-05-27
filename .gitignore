@@ -19,3 +19,8 @@ out/
 # Editor / OS
 .vscode/
 .DS_Store
+
+# NVIDIA profiler binary outputs
+*.nsys-rep
+*.sqlite
+*.ncu-rep

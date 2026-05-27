@@ -1,0 +1,21 @@
+==PROF== Connected to process 21853 (/home/embedded/projects/cuda-heterogeneous-performance-lab/build/cuda_reduction)
+==ERROR== ERR_NVGPUCTRPERM - The user does not have permission to access NVIDIA GPU Performance Counters on the target device 0. For instructions on enabling permissions and to get more information see https://developer.nvidia.com/ERR_NVGPUCTRPERM
+CUDA Reduction Benchmark
+Elements: 67108864
+Threads per block: 256
+Warmup iterations: 5
+Timed iterations: 30
+
+Blocks: 131072
+
+CPU average elapsed: 44.0323 ms
+CPU estimated read bandwidth: 5.67764 GiB/sec
+CPU result: 6.71089e+07
+
+GPU kernel average elapsed: 1.02687 ms
+GPU estimated read bandwidth: 243.459 GiB/sec
+GPU result: 6.71089e+07
+
+GPU kernel / CPU speedup: 42.8803x
+Absolute difference: 0
+==PROF== Disconnected from process 21853

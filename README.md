@@ -51,7 +51,7 @@ Focus areas:
 | [08_streams_overlap](experiments/08_streams_overlap) | Explore CUDA streams and transfer/compute overlap |
 | [08b_pinned_memory_overlap](experiments/08b_pinned_memory_overlap) | Compare pageable and pinned-memory stream behavior |
 | [09_cuda_reduction](experiments/09_cuda_reduction) | Compare reduction strategies |
-| 10_nsight_profile_analysis | Profile CUDA workloads and summarize bottlenecks |
+| [10_nsight_profile_analysis](experiments/10_nsight_profile_analysis) | Profile CUDA workloads and summarize bottlenecks |
 
 ## Key Question
 

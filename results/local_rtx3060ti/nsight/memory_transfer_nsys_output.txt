@@ -1,0 +1,96 @@
+Memory Transfer Overhead Benchmark
+Elements: 16777216
+Threads per block: 256
+Warmup iterations: 5
+Timed iterations: 20
+
+Blocks: 65536
+
+CPU average elapsed: 9.36462 ms
+
+GPU H2D average: 13.2258 ms
+GPU kernel average: 0.514322 ms
+GPU D2H average: 7.157 ms
+GPU end-to-end average: 21.0254 ms
+
+H2D bandwidth: 9.45124 GiB/sec
+D2H bandwidth: 8.73271 GiB/sec
+Kernel estimated bandwidth: 364.558 GiB/sec
+
+Kernel-only GPU / CPU speedup: 18.2077x
+End-to-end GPU / CPU speedup: 0.445396x
+Transfer share of GPU time: 96.9437%
+Validation errors: 0
+Collecting data...
+Generating '/tmp/nsys-report-11cc.qdstrm'
+Press Ctrl-C to stop symbol files downloading
+[1/8] [0%                          ] memory_transfer_nsys.nsys-rep[1/8] [0%                          ] memory_transfer_nsys.nsys-rep[1/8] [=16%                        ] memory_transfer_nsys.nsys-rep[1/8] [=17%                        ] memory_transfer_nsys.nsys-rep[1/8] [==21%                       ] memory_transfer_nsys.nsys-rep[1/8] [===22%                      ] memory_transfer_nsys.nsys-rep[1/8] [======33%                   ] memory_transfer_nsys.nsys-rep[1/8] [===============66%          ] memory_transfer_nsys.nsys-rep[1/8] [========================100%] memory_transfer_nsys.nsys-rep[1/8] [========================100%] memory_transfer_nsys.nsys-rep
+[2/8] [0%                          ] memory_transfer_nsys.sqlite[2/8] [1%                          ] memory_transfer_nsys.sqlite[2/8] [2%                          ] memory_transfer_nsys.sqlite[2/8] [3%                          ] memory_transfer_nsys.sqlite[2/8] [4%                          ] memory_transfer_nsys.sqlite[2/8] [5%                          ] memory_transfer_nsys.sqlite[2/8] [6%                          ] memory_transfer_nsys.sqlite[2/8] [7%                          ] memory_transfer_nsys.sqlite[2/8] [8%                          ] memory_transfer_nsys.sqlite[2/8] [9%                          ] memory_transfer_nsys.sqlite[2/8] [10%                         ] memory_transfer_nsys.sqlite[2/8] [11%                         ] memory_transfer_nsys.sqlite[2/8] [12%                         ] memory_transfer_nsys.sqlite[2/8] [13%                         ] memory_transfer_nsys.sqlite[2/8] [14%                         ] memory_transfer_nsys.sqlite[2/8] [=15%                        ] memory_transfer_nsys.sqlite[2/8] [=16%                        ] memory_transfer_nsys.sqlite[2/8] [=17%                        ] memory_transfer_nsys.sqlite[2/8] [==18%                       ] memory_transfer_nsys.sqlite[2/8] [==19%                       ] memory_transfer_nsys.sqlite[2/8] [==20%                       ] memory_transfer_nsys.sqlite[2/8] [==21%                       ] memory_transfer_nsys.sqlite[2/8] [===22%                      ] memory_transfer_nsys.sqlite[2/8] [===23%                      ] memory_transfer_nsys.sqlite[2/8] [===24%                      ] memory_transfer_nsys.sqlite[2/8] [====25%                     ] memory_transfer_nsys.sqlite[2/8] [====26%                     ] memory_transfer_nsys.sqlite[2/8] [====27%                     ] memory_transfer_nsys.sqlite[2/8] [====28%                     ] memory_transfer_nsys.sqlite[2/8] [=====29%                    ] memory_transfer_nsys.sqlite[2/8] [=====30%                    ] memory_transfer_nsys.sqlite[2/8] [=====31%                    ] memory_transfer_nsys.sqlite[2/8] [=====32%                    ] memory_transfer_nsys.sqlite[2/8] [======33%                   ] memory_transfer_nsys.sqlite[2/8] [======34%                   ] memory_transfer_nsys.sqlite[2/8] [======35%                   ] memory_transfer_nsys.sqlite[2/8] [=======36%                  ] memory_transfer_nsys.sqlite[2/8] [=======37%                  ] memory_transfer_nsys.sqlite[2/8] [=======38%                  ] memory_transfer_nsys.sqlite[2/8] [=======39%                  ] memory_transfer_nsys.sqlite[2/8] [========40%                 ] memory_transfer_nsys.sqlite[2/8] [========41%                 ] memory_transfer_nsys.sqlite[2/8] [========42%                 ] memory_transfer_nsys.sqlite[2/8] [=========43%                ] memory_transfer_nsys.sqlite[2/8] [=========44%                ] memory_transfer_nsys.sqlite[2/8] [=========45%                ] memory_transfer_nsys.sqlite[2/8] [=========46%                ] memory_transfer_nsys.sqlite[2/8] [==========47%               ] memory_transfer_nsys.sqlite[2/8] [==========48%               ] memory_transfer_nsys.sqlite[2/8] [==========49%               ] memory_transfer_nsys.sqlite[2/8] [===========50%              ] memory_transfer_nsys.sqlite[2/8] [===========51%              ] memory_transfer_nsys.sqlite[2/8] [===========52%              ] memory_transfer_nsys.sqlite[2/8] [===========53%              ] memory_transfer_nsys.sqlite[2/8] [============54%             ] memory_transfer_nsys.sqlite[2/8] [============55%             ] memory_transfer_nsys.sqlite[2/8] [============56%             ] memory_transfer_nsys.sqlite[2/8] [============57%             ] memory_transfer_nsys.sqlite[2/8] [=============58%            ] memory_transfer_nsys.sqlite[2/8] [=============59%            ] memory_transfer_nsys.sqlite[2/8] [=============60%            ] memory_transfer_nsys.sqlite[2/8] [==============61%           ] memory_transfer_nsys.sqlite[2/8] [==============62%           ] memory_transfer_nsys.sqlite[2/8] [==============63%           ] memory_transfer_nsys.sqlite[2/8] [==============64%           ] memory_transfer_nsys.sqlite[2/8] [===============65%          ] memory_transfer_nsys.sqlite[2/8] [===============66%          ] memory_transfer_nsys.sqlite[2/8] [===============67%          ] memory_transfer_nsys.sqlite[2/8] [================68%         ] memory_transfer_nsys.sqlite[2/8] [================69%         ] memory_transfer_nsys.sqlite[2/8] [================70%         ] memory_transfer_nsys.sqlite[2/8] [================71%         ] memory_transfer_nsys.sqlite[2/8] [=================72%        ] memory_transfer_nsys.sqlite[2/8] [=================73%        ] memory_transfer_nsys.sqlite[2/8] [=================74%        ] memory_transfer_nsys.sqlite[2/8] [==================75%       ] memory_transfer_nsys.sqlite[2/8] [==================76%       ] memory_transfer_nsys.sqlite[2/8] [==================77%       ] memory_transfer_nsys.sqlite[2/8] [==================78%       ] memory_transfer_nsys.sqlite[2/8] [===================79%      ] memory_transfer_nsys.sqlite[2/8] [===================80%      ] memory_transfer_nsys.sqlite[2/8] [===================81%      ] memory_transfer_nsys.sqlite[2/8] [===================82%      ] memory_transfer_nsys.sqlite[2/8] [====================83%     ] memory_transfer_nsys.sqlite[2/8] [====================84%     ] memory_transfer_nsys.sqlite[2/8] [====================85%     ] memory_transfer_nsys.sqlite[2/8] [=====================86%    ] memory_transfer_nsys.sqlite[2/8] [=====================87%    ] memory_transfer_nsys.sqlite[2/8] [=====================88%    ] memory_transfer_nsys.sqlite[2/8] [=====================89%    ] memory_transfer_nsys.sqlite[2/8] [======================90%   ] memory_transfer_nsys.sqlite[2/8] [======================91%   ] memory_transfer_nsys.sqlite[2/8] [======================92%   ] memory_transfer_nsys.sqlite[2/8] [=======================93%  ] memory_transfer_nsys.sqlite[2/8] [=======================94%  ] memory_transfer_nsys.sqlite[2/8] [=======================95%  ] memory_transfer_nsys.sqlite[2/8] [=======================96%  ] memory_transfer_nsys.sqlite[2/8] [========================97% ] memory_transfer_nsys.sqlite[2/8] [========================98% ] memory_transfer_nsys.sqlite[2/8] [========================99% ] memory_transfer_nsys.sqlite[2/8] [========================100%] memory_transfer_nsys.sqlite[2/8] [========================100%] memory_transfer_nsys.sqlite
+SKIPPED: /home/embedded/projects/cuda-heterogeneous-performance-lab/results/local_rtx3060ti/nsight/memory_transfer_nsys.sqlite does not contain NV Tools Extension (NVTX) data.
+[3/8] Executing 'nvtx_sum' stats report
+[4/8] Executing 'osrt_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)    Med (ns)    Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ----------  -----------  --------  ---------  -----------  ----------------------
+     85.9       1002077180         15  66805145.3  100148691.0      1253  100204153   42164405.5  poll                  
+     12.6        146722037       4707     31171.0       4919.0      1272   12029901     353393.0  ioctl                 
+      1.1         13394604          6   2232434.0      80471.5      1212   12921892    5238180.6  fread                 
+      0.1          1128523          4    282130.8     241239.5     60692     585352     260911.0  sem_timedwait         
+      0.1           903389         27     33458.9       4428.0      1864     434140      97323.7  fopen                 
+      0.1           652677          4    163169.3     133519.0    107240     278399      77902.0  pthread_create        
+      0.0           276428         10     27642.8      12513.5      1423     160922      48102.0  fclose                
+      0.0           268982          1    268982.0     268982.0    268982     268982          0.0  pthread_join          
+      0.0           250937         22     11406.2      11586.5      2665      20198       4496.4  mmap                  
+      0.0           167600          4     41900.0       9953.5      7294     140399      65713.0  open                  
+      0.0           116990          1    116990.0     116990.0    116990     116990          0.0  pthread_cond_wait     
+      0.0            61905          1     61905.0      61905.0     61905      61905          0.0  fgets                 
+      0.0            49453          4     12363.3      14051.5      1052      20298       8207.8  write                 
+      0.0            26991          4      6747.8       7394.0      3607       8596       2327.1  pipe2                 
+      0.0            20368          1     20368.0      20368.0     20368      20368          0.0  fflush                
+      0.0            19136          1     19136.0      19136.0     19136      19136          0.0  pthread_cond_broadcast
+      0.0            18935          4      4733.8       2194.0      1182      13365       5792.7  fwrite                
+      0.0             8055          5      1611.0       1533.0      1292       2154        355.6  read                  
+      0.0             7765          4      1941.3       1252.5      1012       4248       1546.3  fcntl                 
+      0.0             1643          1      1643.0       1643.0      1643       1643          0.0  close                 
+
+[5/8] Executing 'cuda_api_sum' stats report
+
+ Time (%)  Total Time (ns)  Num Calls   Avg (ns)   Med (ns)   Min (ns)  Max (ns)   StdDev (ns)           Name         
+ --------  ---------------  ---------  ----------  ---------  --------  ---------  -----------  ----------------------
+     69.7        433648514         63   6883309.7  6757685.0   6311933   12362589     800933.9  cudaMemcpy            
+     27.1        168753196          3  56251065.3   553755.0    310197  167889244   96681575.5  cudaMalloc            
+      1.9         11864885         80    148311.1    34660.0     13536     514990     205270.4  cudaEventSynchronize  
+      0.4          2393394          1   2393394.0  2393394.0   2393394    2393394          0.0  cudaDeviceSynchronize 
+      0.2          1372007          1   1372007.0  1372007.0   1372007    1372007          0.0  cuLibraryLoadData     
+      0.2          1167648        160      7297.8     5901.0      3667      26980       3403.4  cudaEventRecord       
+      0.2          1130647         25     45225.9    33062.0      7564     401267      75180.8  cudaLaunchKernel      
+      0.2          1000396          3    333465.3   187838.0    175838     636720     262694.8  cudaFree              
+      0.1           460079          8     57509.9      746.0       281     452776     159715.3  cudaEventCreate       
+      0.0           194342         25      7773.7      932.0       110     173827      34596.0  cuKernelGetName       
+      0.0            15288          8      1911.0      290.5       200      13285       4596.4  cudaEventDestroy      
+      0.0             2094          1      2094.0     2094.0      2094       2094          0.0  cuModuleGetLoadingMode
+      0.0              411          1       411.0      411.0       411        411          0.0  cuLibraryGetKernel    
+
+[6/8] Executing 'cuda_gpu_kern_sum' stats report
+
+ Time (%)  Total Time (ns)  Instances  Avg (ns)  Med (ns)  Min (ns)  Max (ns)  StdDev (ns)                              Name                             
+ --------  ---------------  ---------  --------  --------  --------  --------  -----------  -------------------------------------------------------------
+    100.0         12005522         25  480220.9  480087.0    478454    481783        731.8  vector_add_kernel(const float *, const float *, float *, int)
+
+[7/8] Executing 'cuda_gpu_mem_time_sum' stats report
+
+ Time (%)  Total Time (ns)  Count  Avg (ns)   Med (ns)   Min (ns)  Max (ns)  StdDev (ns)           Operation          
+ --------  ---------------  -----  ---------  ---------  --------  --------  -----------  ----------------------------
+     65.2        275104541     42  6550108.1  6510942.5   6256835   7755493     280420.0  [CUDA memcpy Host-to-Device]
+     34.8        147039504     21  7001881.1  6897270.0   6759545   8538614     385009.2  [CUDA memcpy Device-to-Host]
+
+[8/8] Executing 'cuda_gpu_mem_size_sum' stats report
+
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)           Operation          
+ ----------  -----  --------  --------  --------  --------  -----------  ----------------------------
+   2818.572     42    67.109    67.109    67.109    67.109        0.000  [CUDA memcpy Host-to-Device]
+   1409.286     21    67.109    67.109    67.109    67.109        0.000  [CUDA memcpy Device-to-Host]
+
+Generated:
+	/home/embedded/projects/cuda-heterogeneous-performance-lab/results/local_rtx3060ti/nsight/memory_transfer_nsys.nsys-rep
+	/home/embedded/projects/cuda-heterogeneous-performance-lab/results/local_rtx3060ti/nsight/memory_transfer_nsys.sqlite
