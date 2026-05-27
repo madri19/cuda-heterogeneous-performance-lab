@@ -78,7 +78,20 @@ Nsight Compute reported:
 
     Profiling "reduce_sum_kernel": 0%....50%....100% - 7 passes
 
-The profiled run showed a much slower kernel time because Nsight Compute replayed the kernel across multiple profiling passes. This profiler-instrumented timing should not be compared against the normal runtime measurement.
+Key SpeedOfLight metrics:
+
+| Metric | Value |
+|---|---:|
+| Duration | 1.02 ms |
+| Memory Throughput | 89.80% |
+| DRAM Throughput | 60.99% |
+| L1/TEX Cache Throughput | 89.90% |
+| L2 Cache Throughput | 21.53% |
+| Compute (SM) Throughput | 89.80% |
+
+Nsight Compute classified the kernel as using greater than 80% of available compute or memory performance.
+
+The profiled run printed slower application-level timing because Nsight Compute replayed the kernel across multiple profiling passes. The profiler report's per-kernel duration is the useful value here.
 
 ## Interpretation
 
