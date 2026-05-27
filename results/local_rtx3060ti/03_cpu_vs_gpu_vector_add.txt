@@ -1,0 +1,17 @@
+CPU vs GPU Vector Add
+Elements: 16777216
+Threads per block: 256
+GPU warmup iterations: 5
+GPU timed iterations: 20
+CPU timed iterations: 20
+
+Blocks: 65536
+
+CPU average elapsed: 8.84773 ms
+CPU estimated bandwidth: 21.1919 GiB/sec
+
+GPU kernel average elapsed: 0.483382 ms
+GPU estimated kernel bandwidth: 387.892 GiB/sec
+
+GPU kernel / CPU speedup: 18.3038x
+Validation errors: 0
