@@ -1,0 +1,21 @@
+# Build outputs
+build/
+bin/
+out/
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.out
+*.exe
+
+# CUDA generated files
+*.cubin
+*.ptx
+*.fatbin
+
+# Editor / OS
+.vscode/
+.DS_Store

@@ -1,0 +1,24 @@
+CUDA Device Info
+Device count: 1
+
+CUDA runtime version: 13020
+CUDA driver version:  13020
+
+Device 0: NVIDIA GeForce RTX 3060 Ti
+Compute capability: 8.6
+Global memory: 8191 MiB
+Shared memory per block: 48 KiB
+Registers per block: 65536
+Warp size: 32
+Max threads per block: 1024
+Max block dimensions: 1024 x 1024 x 64
+Max grid dimensions: 2147483647 x 65535 x 65535
+Multiprocessor count: 38
+Max threads per multiprocessor: 1536
+Memory clock rate: 7001 MHz
+Memory bus width: 256 bits
+L2 cache size: 3072 KiB
+Unified addressing: yes
+Concurrent kernels: yes
+Can map host memory: yes
+

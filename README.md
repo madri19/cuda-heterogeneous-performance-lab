@@ -41,7 +41,7 @@ Focus areas:
 
 | Experiment | Focus |
 |---|---|
-| 01_cuda_device_info | Capture CUDA device properties and runtime environment |
+| [01_cuda_device_info](experiments/01_cuda_device_info) | Capture CUDA device properties and runtime environment |
 | 02_vector_add_baseline | First CUDA kernel and correctness check |
 | 03_cpu_vs_gpu_vector_add | Compare CPU and GPU vector addition throughput |
 | 04_memory_transfer_overhead | Measure host/device transfer overhead |
