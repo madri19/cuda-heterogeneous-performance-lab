@@ -1,0 +1,39 @@
+CUDA Grid / Block Scaling Benchmark
+Elements: 67108864
+Bytes per vector: 256 MiB
+Warmup iterations: 5
+Timed iterations: 50
+
+Threads per block: 32
+Blocks: 2097152
+Average kernel elapsed: 2.72138 ms
+Estimated bandwidth: 275.595 GiB/sec
+-----------------------------
+Threads per block: 64
+Blocks: 1048576
+Average kernel elapsed: 1.92733 ms
+Estimated bandwidth: 389.139 GiB/sec
+-----------------------------
+Threads per block: 128
+Blocks: 524288
+Average kernel elapsed: 1.92219 ms
+Estimated bandwidth: 390.18 GiB/sec
+-----------------------------
+Threads per block: 256
+Blocks: 262144
+Average kernel elapsed: 1.92208 ms
+Estimated bandwidth: 390.202 GiB/sec
+-----------------------------
+Threads per block: 512
+Blocks: 131072
+Average kernel elapsed: 1.92262 ms
+Estimated bandwidth: 390.092 GiB/sec
+-----------------------------
+Threads per block: 1024
+Blocks: 65536
+Average kernel elapsed: 1.97241 ms
+Estimated bandwidth: 380.246 GiB/sec
+-----------------------------
+Best block size: 256
+Best estimated bandwidth: 390.202 GiB/sec
+Validation errors: 0
