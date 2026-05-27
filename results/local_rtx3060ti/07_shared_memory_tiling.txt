@@ -1,0 +1,18 @@
+Shared Memory Tiling Benchmark
+Matrix: 8192 x 8192
+Tile dim: 32
+Block rows: 8
+Warmup iterations: 5
+Timed iterations: 30
+
+Elements: 67108864
+Bytes per matrix: 256 MiB
+
+Naive transpose average: 4.0959 ms
+Naive estimated bandwidth: 122.073 GiB/sec
+
+Tiled transpose average: 1.32939 ms
+Tiled estimated bandwidth: 376.112 GiB/sec
+
+Tiled / naive speedup: 3.08103x
+Validation errors: 0

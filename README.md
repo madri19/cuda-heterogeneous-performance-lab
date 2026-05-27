@@ -47,7 +47,7 @@ Focus areas:
 | [04_memory_transfer_overhead](experiments/04_memory_transfer_overhead) | Measure host/device transfer overhead |
 | [05_cuda_memory_bandwidth](experiments/05_cuda_memory_bandwidth) | Measure GPU global memory bandwidth |
 | [06_grid_block_scaling](experiments/06_grid_block_scaling) | Explore block size and grid size effects |
-| 07_shared_memory_tiling | Use shared memory to improve locality |
+| [07_shared_memory_tiling](experiments/07_shared_memory_tiling) | Use shared memory to improve locality |
 | 08_streams_overlap | Explore CUDA streams and transfer/compute overlap |
 | 09_cuda_reduction | Compare reduction strategies |
 | 10_nsight_profile_analysis | Profile CUDA workloads and summarize bottlenecks |
