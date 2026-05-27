@@ -37,7 +37,7 @@ Focus areas:
 - reductions
 - profiling with NVIDIA tools
 
-## Planned Experiments
+## Completed Experiments
 
 | Experiment | Focus |
 |---|---|
@@ -52,6 +52,13 @@ Focus areas:
 | [08b_pinned_memory_overlap](experiments/08b_pinned_memory_overlap) | Compare pageable and pinned-memory stream behavior |
 | [09_cuda_reduction](experiments/09_cuda_reduction) | Compare reduction strategies |
 | [10_nsight_profile_analysis](experiments/10_nsight_profile_analysis) | Profile CUDA workloads and summarize bottlenecks |
+
+## Summary
+
+See:
+
+- [docs/phase3_summary.md](docs/phase3_summary.md)
+
 
 ## Key Question
 
