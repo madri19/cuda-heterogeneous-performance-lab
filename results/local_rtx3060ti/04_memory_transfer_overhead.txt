@@ -1,0 +1,23 @@
+Memory Transfer Overhead Benchmark
+Elements: 16777216
+Threads per block: 256
+Warmup iterations: 5
+Timed iterations: 20
+
+Blocks: 65536
+
+CPU average elapsed: 9.32453 ms
+
+GPU H2D average: 12.7318 ms
+GPU kernel average: 0.509534 ms
+GPU D2H average: 6.8729 ms
+GPU end-to-end average: 20.2527 ms
+
+H2D bandwidth: 9.81795 GiB/sec
+D2H bandwidth: 9.09369 GiB/sec
+Kernel estimated bandwidth: 367.983 GiB/sec
+
+Kernel-only GPU / CPU speedup: 18.3001x
+End-to-end GPU / CPU speedup: 0.46041x
+Transfer share of GPU time: 96.8005%
+Validation errors: 0
