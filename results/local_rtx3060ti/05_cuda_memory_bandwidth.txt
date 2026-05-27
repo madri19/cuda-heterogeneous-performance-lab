@@ -1,0 +1,27 @@
+CUDA Memory Bandwidth Benchmark
+Elements: 67108864
+Bytes per buffer: 256 MiB
+Warmup iterations: 5
+Timed iterations: 50
+
+Threads per block: 128
+Blocks: 524288
+Average kernel elapsed: 1.29638 ms
+Estimated bandwidth: 385.688 GiB/sec
+-----------------------------
+Threads per block: 256
+Blocks: 262144
+Average kernel elapsed: 1.29757 ms
+Estimated bandwidth: 385.335 GiB/sec
+-----------------------------
+Threads per block: 512
+Blocks: 131072
+Average kernel elapsed: 1.31035 ms
+Estimated bandwidth: 381.577 GiB/sec
+-----------------------------
+Threads per block: 1024
+Blocks: 65536
+Average kernel elapsed: 1.39874 ms
+Estimated bandwidth: 357.464 GiB/sec
+-----------------------------
+Validation errors: 0
