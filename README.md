@@ -49,6 +49,7 @@ Focus areas:
 | [06_grid_block_scaling](experiments/06_grid_block_scaling) | Explore block size and grid size effects |
 | [07_shared_memory_tiling](experiments/07_shared_memory_tiling) | Use shared memory to improve locality |
 | [08_streams_overlap](experiments/08_streams_overlap) | Explore CUDA streams and transfer/compute overlap |
+| [08b_pinned_memory_overlap](experiments/08b_pinned_memory_overlap) | Compare pageable and pinned-memory stream behavior |
 | 09_cuda_reduction | Compare reduction strategies |
 | 10_nsight_profile_analysis | Profile CUDA workloads and summarize bottlenecks |
 

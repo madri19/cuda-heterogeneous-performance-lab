@@ -1,0 +1,11 @@
+CUDA Pinned Memory Stream Overlap Benchmark
+Elements: 16777216
+Chunks: 8
+Threads per block: 256
+Warmup iterations: 3
+Timed iterations: 20
+
+Pinned sequential average: 8.46601 ms
+Pinned streamed average:   8.73883 ms
+Pinned streamed / sequential speedup: 0.968781x
+Validation errors: 0
