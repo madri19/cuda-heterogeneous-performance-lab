@@ -57,17 +57,28 @@ This confirms that the transfer-heavy benchmark is dominated by host/device memo
 
 ## Nsight Compute
 
-Attempted command:
-
-    ncu --set full ./build/cuda_reduction
-
-Result:
+Initial Nsight Compute profiling failed with:
 
     ERR_NVGPUCTRPERM
 
-Nsight Compute could launch the target process, but GPU performance counter access was blocked by NVIDIA permission settings.
+This was fixed by enabling NVIDIA GPU performance counter access from Windows NVIDIA Control Panel:
 
-A lighter section set also failed with the same permission issue.
+    Developer -> Manage GPU Performance Counters -> Allow access to all users
+
+After restarting WSL, Nsight Compute successfully profiled one `reduce_sum_kernel` launch:
+
+    ncu --target-processes all \
+        --kernel-name reduce_sum_kernel \
+        --launch-skip 5 \
+        --launch-count 1 \
+        --section SpeedOfLight \
+        ./build/cuda_reduction
+
+Nsight Compute reported:
+
+    Profiling "reduce_sum_kernel": 0%....50%....100% - 7 passes
+
+The profiled run showed a much slower kernel time because Nsight Compute replayed the kernel across multiple profiling passes. This profiler-instrumented timing should not be compared against the normal runtime measurement.
 
 ## Interpretation
 
@@ -91,5 +102,7 @@ For these workloads, Nsight Systems showed:
 
 Nsight Systems profiling is working.
 
-Nsight Compute is installed but blocked by GPU performance-counter permissions.
+Nsight Compute profiling is working after enabling GPU performance counter access.
+
+Binary profiler reports are ignored by Git. Text profiler outputs are committed.
 

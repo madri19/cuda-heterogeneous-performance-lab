@@ -1,5 +1,5 @@
-==PROF== Connected to process 21853 (/home/embedded/projects/cuda-heterogeneous-performance-lab/build/cuda_reduction)
-==ERROR== ERR_NVGPUCTRPERM - The user does not have permission to access NVIDIA GPU Performance Counters on the target device 0. For instructions on enabling permissions and to get more information see https://developer.nvidia.com/ERR_NVGPUCTRPERM
+==PROF== Connected to process 602 (/home/embedded/projects/cuda-heterogeneous-performance-lab/build/cuda_reduction)
+==PROF== Profiling "reduce_sum_kernel": 0%....50%....100% - 7 passes
 CUDA Reduction Benchmark
 Elements: 67108864
 Threads per block: 256
@@ -8,14 +8,15 @@ Timed iterations: 30
 
 Blocks: 131072
 
-CPU average elapsed: 44.0323 ms
-CPU estimated read bandwidth: 5.67764 GiB/sec
+CPU average elapsed: 44.5286 ms
+CPU estimated read bandwidth: 5.61437 GiB/sec
 CPU result: 6.71089e+07
 
-GPU kernel average elapsed: 1.02687 ms
-GPU estimated read bandwidth: 243.459 GiB/sec
+GPU kernel average elapsed: 15.3568 ms
+GPU estimated read bandwidth: 16.2794 GiB/sec
 GPU result: 6.71089e+07
 
-GPU kernel / CPU speedup: 42.8803x
+GPU kernel / CPU speedup: 2.8996x
 Absolute difference: 0
-==PROF== Disconnected from process 21853
+==PROF== Disconnected from process 602
+==PROF== Report: /home/embedded/projects/cuda-heterogeneous-performance-lab/results/local_rtx3060ti/nsight/reduction_ncu.ncu-rep
