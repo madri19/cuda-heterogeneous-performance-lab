@@ -1,0 +1,11 @@
+CUDA Streams Overlap Benchmark
+Elements: 16777216
+Chunks: 8
+Threads per block: 256
+Warmup iterations: 3
+Timed iterations: 20
+
+Sequential average: 19.9095 ms
+Streamed average:   20.6194 ms
+Streamed / sequential speedup: 0.965574x
+Validation errors: 0
