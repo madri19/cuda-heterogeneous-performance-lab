@@ -1,0 +1,36 @@
+Vector Add Baseline
+Elements: 16777216
+Threads per block: 256
+
+Blocks: 65536
+Kernel elapsed: 153.483 ms
+Throughput: 1.0931e+08 elements/sec
+Estimated kernel bandwidth: 1.22163 GiB/sec
+Validation errors: 0
+Vector Add Baseline
+Elements: 16777216
+Threads per block: 256
+
+Blocks: 65536
+Kernel elapsed: 2.25619 ms
+Throughput: 7.43608e+09 elements/sec
+Estimated kernel bandwidth: 83.1046 GiB/sec
+Validation errors: 0
+Vector Add Baseline
+Elements: 16777216
+Threads per block: 256
+
+Blocks: 65536
+Kernel elapsed: 2.20026 ms
+Throughput: 7.62512e+09 elements/sec
+Estimated kernel bandwidth: 85.2174 GiB/sec
+Validation errors: 0
+Vector Add Baseline
+Elements: 16777216
+Threads per block: 256
+
+Blocks: 65536
+Kernel elapsed: 2.36426 ms
+Throughput: 7.09619e+09 elements/sec
+Estimated kernel bandwidth: 79.3061 GiB/sec
+Validation errors: 0
